@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Komal Sargar | Data Analyst</title>
+<meta name="description" content="Portfolio of Komal Sargar, a data analyst who works with SQL, Power BI, Excel and Python.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Komal Sargar, back to top"><i>KS</i><span>Komal Sargar</span></a>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">Dark</button>
+      <a class="btn primary sm" href="assets/Komal_Sargar_Resume.pdf" download>Resume</a>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow rise" style="--i:0">Data analyst</p>
+        <h1 class="rise" style="--i:1">Komal Sargar</h1>
+        <p class="lead rise" style="--i:2">I turn messy data into decisions people can act on.</p>
+        <p class="about rise" style="--i:3">Data analyst finishing an MCA at VPIMSR, Sangli in 2026. I use SQL, Power BI and Excel to clean raw data and turn it into dashboards people can use. I have built a client dashboard on 5,500+ booking records and analyzed 300K+ payment transactions.</p>
+        <div class="cta rise" style="--i:4">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="assets/Komal_Sargar_Resume.pdf" download>Download resume</a>
+        </div>
+        <p class="quick rise" style="--i:5">
+          <a href="https://github.com/KomalSargar27">GitHub</a>
+          <a href="https://linkedin.com/in/komal-sargar">LinkedIn</a>
+          <a href="mailto:sargarkomal27@gmail.com">Email</a>
+        </p>
+      </div>
+      <aside class="hero-side rise" style="--i:3" aria-label="Highlights">
+        <div class="avatar" id="avatar"><span>KS</span></div>
+        <ul class="facts">
+          <li><b>300K+</b><span>payment transactions analyzed in Power BI</span></li>
+          <li><b>13,000+</b><span>e-commerce records analyzed in SQL</span></li>
+          <li><b>5,500+</b><span>booking records in a client dashboard</span></li>
+          <li><b>24+</b><span>SQL queries written for one analysis</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec" id="skills" aria-labelledby="skillsTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skillsTitle">Tools I work with</h2>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="projects" aria-labelledby="projectsTitle">
+    <div class="wrap">
+      <div class="sec-head row">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2 id="projectsTitle">Dashboards and analyses</h2>
+          <p class="sec-lead">Open a project to see its screenshots and demo video, or go straight to the code on GitHub.</p>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filter projects by tool"></div>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="certificates" aria-labelledby="certTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Certificates</p>
+        <h2 id="certTitle">Courses and certificates</h2>
+        <p class="sec-lead">Select a certificate to see it full size.</p>
+      </div>
+      <div class="cert-grid" id="cert-grid"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="experience" aria-labelledby="expTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Experience and education</p>
+        <h2 id="expTitle">Where I have worked and studied</h2>
+      </div>
+      <div class="exp-grid">
+        <div id="experience-list"></div>
+        <div id="education-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="contact" aria-labelledby="contactTitle">
+    <div class="wrap">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contactTitle">Let's talk about your data</h2>
+          <p class="sec-lead">Send me an email, or find me on LinkedIn and GitHub.</p>
+        </div>
+        <div class="contact-actions">
+          <div class="mail">
+            <code id="email">sargarkomal27@gmail.com</code>
+            <button class="copy" id="copyBtn" type="button">Copy</button>
+          </div>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:sargarkomal27@gmail.com">Send an email</a>
+            <a class="btn" href="https://linkedin.com/in/komal-sargar">LinkedIn</a>
+            <a class="btn" href="https://github.com/KomalSargar27">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>Komal Sargar, data analyst</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<!-- Project viewer -->
+<dialog class="dlg" id="pv" aria-labelledby="pvTitle">
+  <button class="xbtn" type="button" data-close aria-label="Close">Close</button>
+  <div class="dlg-body">
+    <div class="viewer">
+      <div class="stage" id="pvStage"></div>
+      <div class="thumbs" id="pvThumbs"></div>
+    </div>
+    <div class="detail">
+      <span class="tag" id="pvTag"></span>
+      <h3 id="pvTitle"></h3>
+      <p class="desc" id="pvDesc"></p>
+      <div id="pvPoints"></div>
+      <ul class="meta" id="pvStack"></ul>
+      <a class="btn primary" id="pvGit" href="#">View code on GitHub</a>
+    </div>
+  </div>
+</dialog>
+
+<!-- Certificate viewer -->
+<dialog class="dlg small" id="cv" aria-labelledby="cvTitle">
+  <button class="xbtn" type="button" data-close aria-label="Close">Close</button>
+  <div class="cert-view">
+    <div class="cert-stage" id="cvStage"></div>
+    <div class="detail">
+      <h3 id="cvTitle"></h3>
+      <p class="desc" id="cvMeta"></p>
+      <p class="desc" id="cvCovers"></p>
+      <a class="btn" id="cvVerify" href="#" hidden>Verify certificate</a>
+    </div>
+  </div>
+</dialog>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
