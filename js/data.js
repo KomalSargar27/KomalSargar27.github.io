@@ -11,7 +11,7 @@
 */
 window.SITE = {
   github: "https://github.com/KomalSargar27",
-  linkedin: "https://linkedin.com/in/komal-sargar",
+  linkedin: "https://www.linkedin.com/in/komal-sargar-49b81b30b",
   email: "sargarkomal27@gmail.com",
   resume: "assets/Komal_Sargar_Resume.pdf",
   photo: "assets/photo",
